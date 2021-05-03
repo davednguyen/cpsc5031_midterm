@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7nHq8mi7ipExnVOMmX19kc55zep2vBk2cR1ptgTiD3IDIB8NhjIWuKAThYB1/ZiOWHE+P75/EpOS526LMRARyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dzzn\\Desktop\\CPSC5031_02\\midterm\\coding_part\\PythagoreanTheorem\\PythagoreanTheorem\\PythagoreanTheorem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dzzn\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
