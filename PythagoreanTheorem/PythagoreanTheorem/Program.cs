@@ -56,8 +56,8 @@ namespace PythagoreanTheorem
         /// <summary>
         /// Get a distance between points based on Pythagorean Theorem
         /// </summary>
-        /// <param name="p1">array for x1, y1, or n demension</param>
-        /// <param name="p2">array for x2, y2, or n demension</param>
+        /// <param name="p1">array for x1, y1, or n dimension</param>
+        /// <param name="p2">array for x2, y2, or n dimension</param>
         /// <param name="numDimensions">number of demension</param>
         /// <returns>distance between points</returns>
         public static float Distance(int[] p1, int[] p2, int numDimensions)
@@ -85,8 +85,8 @@ namespace PythagoreanTheorem
         /// <summary>
         ///  Get a distance between points based on Pythagorean Theorem
         /// </summary>
-        /// <param name="p1">array for x1, y1, or n demension</param>
-        /// <param name="p2">array for x2, y2, or n demension</param>
+        /// <param name="p1">array for x1, y1, or n dimension</param>
+        /// <param name="p2">array for x2, y2, or n dimension</param>
         /// <param name="index">starting index of array</param>
         /// <param name="value">distance between points</param>
         /// <returns></returns>
