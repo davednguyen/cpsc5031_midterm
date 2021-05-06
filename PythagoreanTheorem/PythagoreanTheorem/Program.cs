@@ -6,50 +6,50 @@ namespace PythagoreanTheorem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Midterm");
+            Console.WriteLine("    Midterm          Pythagorean Theorem");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("Test case 1 (2 dimensions): p1[3, 8], p2[8, 3]");
             int[] p1 = new int[] { 3, 8 };
             int[] p2 = new int[] { 8, 4 };
             var distanceA = Distance(p1, p2, 2);
-            Console.WriteLine(distanceA);
+            Console.WriteLine("Distance: " + distanceA);
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("test case 2 (3 dimensions): p1[-8, 8, -8], p2[-3, 2, 10]");
             int[] pA = new int[] { -8, 8, -8 };
             int[] pB = new int[] { -3, 2, 10 };
             var distanceB = Distance(pA, pB, 3);
-            Console.WriteLine(distanceB);
+            Console.WriteLine("Distance: " + distanceB);
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("test case 3 (0 dimensions and empty array): p1[], p2[]");
             int[] p1A = new int[] {};
             int[] p1B = new int[] {};
             var distanceC = Distance(p1A, p1B, 0);
-            Console.WriteLine(distanceC);
+            Console.WriteLine("Distance: " + distanceC);
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("test case 4 (null arrays): p1[], p2[]");
             int[] p2A = null;
             int[] p2B = null;
             var distanceD = Distance(p2A, p2B, 2);
-            Console.WriteLine(distanceD);
+            Console.WriteLine("Distance: " + distanceD);
 
             Console.WriteLine("-------------------Pythagorean Theorem recursive----------------------");
             Console.WriteLine("Midterm");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("Test case 5 (2 dimensions): p1[3, 8], p2[8, 3]");
               var distanceAR = DistanceRecursive(p1, p2, 1, 0);
-            Console.WriteLine(distanceAR);
+            Console.WriteLine("Distance: " + distanceAR);
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("test case 6 (3 dimensions): p1[-8, 8, -8], p2[-3, 2, 10]");
             var distanceBR = DistanceRecursive(pA, pB, 2, 0);
-            Console.WriteLine(distanceBR);
+            Console.WriteLine("Distance: " + distanceBR);
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("test case 7 (0 dimensions and empty array): p1[], p2[]");
             var distanceCR = DistanceRecursive(p1A, p1B, 0, 0);
-            Console.WriteLine(distanceCR);
+            Console.WriteLine("Distance: " + distanceCR);
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("test case 8 (null arrays): p1[], p2[]");
             var distanceDR = DistanceRecursive(p2A, p2B, 2, 0);
-            Console.WriteLine(distanceDR);
+            Console.WriteLine("Distance: " + distanceDR);
         }
 
 
